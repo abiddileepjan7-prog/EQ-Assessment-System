@@ -1,0 +1,40 @@
+# ----------------------------------------------------------------------
+# EQ Assessment System .gitignore
+# ----------------------------------------------------------------------
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.env
+db.sqlite3
+
+# Node / React (Frontend)
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# HuggingFace Cache (just in case they were downloaded locally)
+.huggingface/
+.cache/

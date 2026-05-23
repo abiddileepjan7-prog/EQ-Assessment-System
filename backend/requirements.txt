@@ -1,0 +1,22 @@
+# Backend Dependencies — EQ Assessment System
+# Install with: pip install -r requirements.txt
+
+# Core Framework
+django>=6.0
+djangorestframework>=3.17
+django-cors-headers>=4.9
+
+# HuggingFace Inference API (lightweight — no PyTorch needed)
+huggingface-hub>=0.23
+
+<<<<<<< HEAD
+=======
+# PDF Reports & Deployment
+reportlab>=4.0
+gunicorn>=21.0
+whitenoise>=6.0
+
+>>>>>>> adb8920347ad8e4a556b8494681a66789dd80096
+# Utilities
+python-dotenv>=1.0
+groq>=0.9.0
